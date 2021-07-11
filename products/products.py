@@ -7,3 +7,5 @@ while True:
 	products.append([name, dollar])
 print(products)
 
+for p in products:
+	print(p[0], 'is', p[1], 'dollars')
